@@ -1,0 +1,192 @@
+.body{
+    position: relative;
+
+}
+.navbar-fixed{
+    position: sticky;
+z-index: 10;
+top: 0;
+background-color: transparent;
+bottom: 10px;
+}
+.navbar-header{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color:  #4f4d6a;
+}
+.hr{
+    background-color: #fff;
+    height:2px;
+    
+}
+.text-on-image{
+   
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   flex-direction: column;
+}
+.we-are{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 24px;
+color: #4f4d6a;
+text-transform: uppercase;
+
+}
+.studio-banx{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 125px;
+color: #4f4d6a;
+text-transform: uppercase;
+}
+.studio-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4f4d6a;
+    text-transform: uppercase;
+    }  
+.see-our-work{
+font-family: Georgia;
+font-style: italic;
+font-size: 18px;
+background: linear-gradient(#6d6b89,#504e6b);
+color: #fff;
+border-color: #4f4d6a;
+border-radius: 30px;
+padding: 10px 50px;
+text-align: center;
+border: solid 1px;
+display: inline-block;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.meet-the-team{
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 50px;
+    text-align: center;
+    border: solid 1px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(#cdbec7,#9e8596);
+    border-color: #937d91;
+   
+}
+.text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.check-out{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 24px;
+    color:  #4f4d6a;
+    text-transform: uppercase;
+
+}
+.our-worx{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 72px;
+    color:  #4f4d6a;
+    text-transform: uppercase;
+}
+.card-title-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 22px;
+    color:  #4f4d6a;
+}
+.card-text-decoration{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    color:  #4f4d6a;
+    line-height: 23px;
+}
+.view-more{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+
+  
+}
+.footer-block{
+    background-color:  #505050;
+
+}
+.headline{
+    font-size: 24px;
+    font-family: Georgia;
+    font-style: italic;
+}
+.footer-text{
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 24px;
+}
+.text-on-image{
+    align-items: center;
+ 
+}
+.background-color{
+    background-color: #ebebeb;
+}
+.card-body{
+    background-color: #ebebeb;
+}
+
+.circle{
+    background-color:#efefef;
+    border-radius: 50%;
+    padding: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.card-img-circle{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 390px) {
+    .we-are{font-size: 12px;
+        bottom: 10px;
+    }
+    .studio-banx{
+        font-size: 30px;
+    }
+    .studio-text{
+        font-size: 7px;
+    }
+    .check-out{
+        font-size: 12px;
+    }
+    .our-worx{
+       font-size:  20px;
+    }
+    .see-our-work{
+        font-size: 9px;
+    }
+    .meet-the-team{
+        font-size: 9px;
+    }
+    .view-more{
+        font-size: 9px;
+    }
+    }
+
+    
+
+
